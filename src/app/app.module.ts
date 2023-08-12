@@ -8,6 +8,7 @@ import { ListeReservationComponent } from './liste-reservation/liste-reservation
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { ModifierAudienceComponent } from './modifier-audience/modifier-audience.component';
+import { PrintReservationComponent } from './print-reservation/print-reservation.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ModifierAudienceComponent } from './modifier-audience/modifier-audience
     ListeReservationComponent,
     RegisterComponent,
     LoginComponent,
-    ModifierAudienceComponent
+    ModifierAudienceComponent,
+    PrintReservationComponent
   ],
   imports: [
     BrowserModule,
@@ -27,6 +29,7 @@ import { ModifierAudienceComponent } from './modifier-audience/modifier-audience
       {path: '', component:LoginComponent },
       {path: 'register', component:RegisterComponent },
       {path: 'modifier-audience', component:ModifierAudienceComponent },
+      {path: 'print-reservation', component:PrintReservationComponent },
 
     ])
   ],
