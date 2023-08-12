@@ -1,0 +1,43 @@
+<div class="col-12">
+    <a class="btn btn-info" routerLink="/journal-reunion"><i class="fa fa-print"> Imprimer la liste</i></a>
+    <a style="margin-left: 10px;" class="btn btn-warning" routerLink="/journal-ration"><i class="fa fa-shopping-cart"> Transferer l'audience</i></a>
+    <a style="margin-left: 10px;" class="btn btn-info" routerLink="/bilan-ration"><i class="fa fa-th"> Payer l'audience</i></a>
+    <br><br>
+    <div class="card">
+      <div class="card-body">
+        
+        <div class="table-responsive">
+          <table
+            id="zero_config"
+            class="table table-striped table-bordered"
+          >
+            <thead>
+              <tr>
+                <th>Date d'audience</th>
+                <th>Tiket n°</th>
+                <th>Nom Patient</th>
+                <th>Actions</th>
+           </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>10/12/2023 , 6:30 min</td>
+                <td>0398483773883</td>
+                <td>Akono jean paul</td>
+                <td>
+                    <a class="btn btn-warning" routerLink="/modifier-audience"><i class="fa fa-edit"> Afficher l'audience</i></a>
+                    
+                    <a class="btn btn-danger" ><i class="fa fa-trash"> Annuler l'audience</i></a>
+                </td>
+                
+              </tr>
+              
+            </tbody>
+            <tfoot>
+              
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
